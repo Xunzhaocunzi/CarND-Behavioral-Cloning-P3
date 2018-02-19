@@ -2,13 +2,13 @@
 
 Overview:
 
-![Neural Network training flow](NN training flow.JPG)
+![Neural Network training flow](NN_training_flow.JPG)
 
 This architecture flow describes how the controller (python) communicates with vehicle model. The controller adjusts steering angle input according to the images taken from the center camera. However, to me, it looks like the controller just "memorizes" all the images, rather than actually learns how to drive according to surface conditions. I will keep this in mind, and hopefully I can find an answer for myself in the near future. 
 
-![CNN architeture](CNN architecture.JPG)
+![CNN architeture](CNN_architecture.JPG)
 
-![model summary](model summary.JPG)
+![model summary](model_summary.JPG)
 
 The architeture basically refers to the nVIDIA architure, because it has approved to be working successfully. The main difference is that in nVIDIA,the size of input image was 66x200, while in this project, the size was 160x320. 
 
